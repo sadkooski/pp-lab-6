@@ -7,9 +7,9 @@ import company.models.Worker;
 public class Main {
     public static void main(String[] args) {
 
-        Worker worker1 = new Worker("Maciej", 6000.0, 1, "2022-01-01", "Junior Developer");
+        Worker worker1 = new Worker("David", 5000.0, 1, "2022-01-01", "Junior Developer");
         Worker worker2 = new Worker("Robert", 4800.0, 2, "2023-03-15", "Senior Developer");
-        Worker worker3 = new Worker("Kamil", 9400.0, 3, "2020-12-10", "Tester");
+        Worker worker3 = new Worker("Bob", 7400.0, 3, "2020-12-10", "Tester");
         Manager manager = new Manager("Michael", 5000.0, 5, "2019-05-10", "Team Head");
 
         ArrayList<Employee> employees = new ArrayList<>();
