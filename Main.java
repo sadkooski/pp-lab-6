@@ -7,7 +7,6 @@ import company.abstracts.Employee;
 import company.models.Manager;
 import company.models.Worker;
 
-
 public class Main {
     public static void main(String[] args) {
         Worker worker1 = new Worker("David", 8000, 1, "2022-01-01", "Junior Developer");
@@ -15,9 +14,10 @@ public class Main {
         Worker worker3 = new Worker("Bob", 3400, 2, "2020-12-10", "Tester");
         Worker worker4 = new Worker("Rob", 5400, 4, "2020-12-10", "Tester");
         Worker worker5 = new Worker("Harry", 4500, 4, "2020-12-10", "Tester");
+        Worker worker6 = new Worker("Tom", 4800, 6, "2020-12-10", "Tester");
 
         Manager manager1 = new Manager("Michael", 5000, 5, "2019-05-10", "Team Head");
-        Manager manager2 = new Manager("Michael", 5000, 5, "2019-05-10", "Team Lead");
+        Manager manager2 = new Manager("John", 6000, 7, "2019-05-10", "Team Lead");
 
         ArrayList<Employee> employees = new ArrayList<>();
         employees.add(worker1);
@@ -25,6 +25,7 @@ public class Main {
         employees.add(worker3);
         employees.add(worker4);
         employees.add(worker5);
+        employees.add(worker6);
         employees.add(manager1);
         employees.add(manager2);
 
@@ -66,5 +67,3 @@ public class Main {
         }
     }
 }
-
-
